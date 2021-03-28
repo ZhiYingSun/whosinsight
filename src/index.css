@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root{
-  --primary: #efb6b2;
-  --secondary: #4e4e4e;
+  --primary: #000000;
+  --secondary: #1b1b1b;
   --error: #ff4a4a;
 }
 
 /* base styles & title */
 body{
-  font-family: "Noto Serif";
+  font-family: "Roboto";
   color: var(--secondary);
 }
 .App{
@@ -19,7 +19,7 @@ body{
   color: var(--primary);
   font-size: 1.2rem;
   letter-spacing: 2px;
-  font-weight: normal;
+  font-weight: bolder;
 }
 .title h2, .title p{
   text-align: center;
@@ -27,6 +27,11 @@ body{
 .title h2{
   margin-top: 60px;
   font-size: 2.6rem;
+}
+
+.title p{
+  font-size: 1.3rem;
+  font-weight: normal;
 }
 
 /* upload form styles */
