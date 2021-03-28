@@ -5,3 +5,9 @@
 - Framer Motion
 - Firebase Storage
 - Firebase Firestore
+
+### Coming next!
+- authentication
+- filtering
+- design
+- cool new components?
