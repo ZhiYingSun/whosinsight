@@ -11,12 +11,13 @@ const UploadForm = () => {
         let selected = e.target.files[0];
         console.log(selected);
 
-        // make sure a file has been slected and is of allowed type
+        // make sure a file has been selected and is of allowed type
         if (selected && types.includes(selected.type)) {
             setFile(selected);
+            setError('');
         } else {
             setFile(null);
-            setError('Please select an image file (png or jpeg)')
+            setError('Please select an image file (png or jpeg)');
         }
     }
 
@@ -26,6 +27,7 @@ const UploadForm = () => {
             <div className="output">
                 {/* if we have an error */}
                 { error && <div className="error">{ error }</div> }
+                { file && <div>{ file.name }</div> }
             </div>
         </form>
     )   
