@@ -5,7 +5,7 @@ const Title = () => {
     <div className="title">
       <h1>WHOSINSIGHT</h1>
       <h2>Brandon Hoang</h2>
-      <p>Toronto📍</p>
+      {/* <p>Toronto📍</p> */}
     </div>
   )
 }
