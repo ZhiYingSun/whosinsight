@@ -10,4 +10,4 @@
 - authentication
 - filtering
 - design
-- cool new components?
+- Nav/Footer
