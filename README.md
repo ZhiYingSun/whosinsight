@@ -5,3 +5,10 @@
 - Framer Motion
 - Firebase Storage
 - Firebase Firestore
+
+### Coming next!
+- authentication
+- filtering
+- design
+- Nav/Footer
+- lazy-loading
