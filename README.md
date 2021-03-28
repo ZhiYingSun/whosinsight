@@ -11,3 +11,4 @@
 - filtering
 - design
 - Nav/Footer
+- lazy-loading
