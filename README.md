@@ -7,6 +7,7 @@
 - Firebase Firestore
 
 ### Coming next!
+- add loading animation or cache for heroku
 - authentication
 - filtering
 - design
